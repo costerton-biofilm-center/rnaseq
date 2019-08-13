@@ -7,8 +7,13 @@ nextflow/19.03.0-edge
 singularity/3.2.0 
 ```
 
+You also need to set up a nextflow configuration file at ~/.nextflow/config which contains:
 
-
+```
+singularity {
+  enabled = true
+  autoMounts = true
+ }
 
 
 
